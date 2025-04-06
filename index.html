@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <!-- An External Image from Pexels.com -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/19212126/pexels-photo-19212126/free-photo-of-nature-wallpaper.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Nature Wallpaper" width="500" height="300">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Elm Street</td>
+                <td>555-1234</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Avenue</td>
+                <td>555-5678</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Emily Johnson</td>
+                <td>789 Pine Road</td>
+                <td>555-9012</td>
+                <td>emily@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>321 Maple Lane</td>
+                <td>555-3456</td>
+                <td>michael@example.com</td>
+            </tr>
+            <tr>
+                <td>Sarah Davis</td>
+                <td>654 Birch Drive</td>
+                <td>555-7890</td>
+                <td>sarah@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form with all the faetures and required placeholder-->
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password"><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="dropdown">Dropdown:</label>
+        <select id="dropdown" name="dropdown" required>
+            <option value="">Select an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select><br><br>
+
+        <label>Radio Buttons:</label>
+        <input type="radio" id="radio1" name="radio" value="option1" required>
+        <label for="radio1">Option 1</label>
+        <input type="radio" id="radio2" name="radio" value="option2" required>
+        <label for="radio2">Option 2</label><br><br>
+
+        <label>Checkboxes:</label>
+        <input type="checkbox" id="checkbox1" name="checkbox" value="option1" required>
+        <label for="checkbox1">Option 1</label>
+        <input type="checkbox" id="checkbox2" name="checkbox" value="option2" required>
+        <label for="checkbox2">Option 2</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
